@@ -1,0 +1,60 @@
+body {
+    background-image: url('../images/pexels-photo-288093.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    max-width: 946px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.grid-content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: darkblue;
+    column-gap: 10px;
+    row-gap: 10px;
+    opacity: 80%;
+}
+.grid-content > div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px 25px;
+    
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(227, 162, 194);
+    opacity: 60%;
+    color:black;
+    box-shadow: inset rgb(218, 224, 228) 15px 6px 10px;
+}
+.item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: rgb(183, 191, 170);
+    opacity: 0.8;
+    box-shadow: inset rgb(228, 127, 64) 7px 6px 10px;
+}
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: rgb(65, 123, 161);
+    opacity: 80%;
+    box-shadow: inset rgb(255, 249, 253) 5px 6px 10px;
+    
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(144, 66, 162);
+    opacity: 66%;
+    color: floralwhite;
+    box-shadow: inset rgb(93, 167, 119) 7px 9px 10px;
+}
